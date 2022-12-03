@@ -21,5 +21,13 @@ public class TestAbstraction {
 
         System.out.println(s2);
         System.out.println(i2);
+
+        s2.takesPhoto();
+        s2.recordVideo();
+        i1.takesPhoto();
+        i2.recordVideo();
+
+
+
     }
 }

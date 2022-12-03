@@ -31,7 +31,7 @@ blocks
         // created to be implemented by sub - classes.
     public abstract void text(); // created to be implemented by sub - classes.
 
-
+    public void rings() {}
     @Override
     public String toString() {
         return getClass().getSimpleName() + "{" +
