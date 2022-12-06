@@ -2,6 +2,7 @@ package abstraction;
 
 public interface Camera {
 
+    String color = "Black";
     String quality = "";
     void takesPhoto(); // any method you created in interface is abstract method by default already.
     void recordVideo();

@@ -41,4 +41,5 @@ blocks
                 ", price=" + price +
                 '}';
     }
+
 }

@@ -22,7 +22,8 @@ public class CompanyTest {
         company1.setAddress("California");
         company1.setPhone("(123) 321-2345");
 
-        Company company2 = new Company("Google", "California", "(000) 055- 5555");
+        Company company2 = new Company();
+        company2.setName("Google");
 
         System.out.println(company1);
         System.out.println(company2);
